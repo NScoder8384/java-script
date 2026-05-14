@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', Arial, sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #ffffff);
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* Heading */
+h2 {
+  color: #4b0082;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Login box */
+.login-box {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 350px;
+  margin: 60px auto;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* Inputs */
+input {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Button */
+button {
+  background: #6a11cb;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4b0082;
+}
+
+/* Attendance Section */
+#attendanceSection {
+  display: none;
+  background: white;
+  padding: 25px;
+  width: 500px;
+  margin: 30px auto;
+  border-radius: 12px;
+}
+
+/* Attendance list */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f2f2f2;
+  margin: 6px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+/* Logo */
+.logo {
+  width: 70px;
+  margin-bottom: 10px;
+}

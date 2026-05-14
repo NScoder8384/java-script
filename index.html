@@ -1,0 +1,24 @@
+<h2>Attendance Management System</h2>
+
+<div class="login-box">
+  <h2>Teacher Login</h2>
+  <input type="email" id="email" placeholder="Email" required>
+  <input type="password" id="password" placeholder="Password" required>
+  <button onclick="login()">Login</button>
+</div>
+
+<div id="attendanceSection" style="display:none;">
+  <h2>Mark Attendance</h2>
+  <input type="text" id="name" placeholder="Student Name" list="students" required>
+  <datalist id="students"></datalist>
+  <button onclick="markAttendance()">Mark Present</button>
+  <button onclick="showSummary()">AI Attendance Summary</button>
+  <ul id="attendanceList"></ul>
+</div>
+
+<link rel="stylesheet" href="style.css">
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+<script src="config/firebase-config.js"></script>
+<script src="script.js"></script>

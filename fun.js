@@ -1,5 +1,6 @@
 // WAP to find the number is prime or not  between two numbers using function in java script
 function isprime(num){
+
     if (num <= 1){
         return false;
     }
